@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashActivity">
+
+    <activity
+        android:id="@+id/splashActivity"
+        android:name="com.datechnologies.androidtest.presentation.feature.splash.SplashActivity"
+        android:label="SplashActivity" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.datechnologies.androidtest.presentation.feature.main.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.datechnologies.androidtest.presentation.feature.login.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/chatActivity"
+        android:name="com.datechnologies.androidtest.presentation.feature.chat.ChatActivity"
+        android:label="activity_chat"
+        tools:layout="@layout/activity_chat" />
+    <activity
+        android:id="@+id/animationActivity"
+        android:name="com.datechnologies.androidtest.presentation.feature.animation.AnimationActivity"
+        android:label="activity_animation"
+        tools:layout="@layout/activity_animation" />
+</navigation>

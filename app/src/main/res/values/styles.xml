@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/gpc_splash</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.50PercentCorner" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="chat_username" parent="TextAppearance.AppCompat">
+        <item name="color">#1B1E1F</item>
+        <item name="android:textSize">13sp</item>
+        <item name="fontWeight">500</item>
+    </style>
+
+    <style name="chat_message" parent="TextAppearance.AppCompat">
+        <item name="color">@color/chat_text</item>
+        <item name="android:textSize">15sp</item>
+        <item name="fontWeight">400</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">false</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+        <item name="background">@drawable/bubble</item>
+    </style>
+
+    <style name="nav_button" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="fontWeight">500</item>
+        <item name="android:textColor">#1B1E1F</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingLeft">22dp</item>
+        <item name="android:background">@drawable/nav_button_drawable</item>
+        <item name="android:foreground">?selectableItemBackground</item>
+        <item name="android:elevation" tools:ignore="NewApi">20dp</item>
+    </style>
+
+</resources>
+

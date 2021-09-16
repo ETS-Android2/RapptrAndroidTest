@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AndroidTest</string>
+
+    <!-- Main Screen Strings -->
+    <string name="activity_main_title">Coding Tasks</string>
+    <string name="chat_button">CHAT</string>
+    <string name="login_button">LOG IN</string>
+    <string name="animation_button">ANIMATION</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="animation">Animation</string>
+    <string name="chat">Chat</string>
+
+    <string name="ok">OK</string>
+    <string name="chat_error_msg">An error has occurred.\nPlease check your network.</string>
+    <string name="username">Username</string>
+    <string name="fade_in">Fade In</string>
+    <string name="logo_description">D &amp; A Technologies Logo</string>
+    <string name="title">Title</string>
+    <string name="message">Message</string>
+
+</resources>
